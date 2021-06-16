@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/773-normal\"}"
+        },
+        "title" : {
+            "translate" : "advancements.silvally_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.silvally_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "silvally_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "silvally"
+            }
+        }
+    }
+}

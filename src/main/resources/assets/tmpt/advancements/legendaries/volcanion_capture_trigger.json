@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/721\"}"
+        },
+        "title" : {
+            "translate" : "advancements.volcanion_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.volcanion_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "volcanion_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "volcanion"
+            }
+        }
+    }
+}

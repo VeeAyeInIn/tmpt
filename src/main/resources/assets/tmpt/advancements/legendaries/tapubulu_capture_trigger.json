@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/787\"}"
+        },
+        "title" : {
+            "translate" : "advancements.tapubulu_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.tapubulu_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "tapubulu_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "tapubulu"
+            }
+        }
+    }
+}

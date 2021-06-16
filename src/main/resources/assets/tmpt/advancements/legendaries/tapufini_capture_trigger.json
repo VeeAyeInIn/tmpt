@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/788\"}"
+        },
+        "title" : {
+            "translate" : "advancements.tapufini_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.tapufini_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "tapufini_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "tapufini"
+            }
+        }
+    }
+}

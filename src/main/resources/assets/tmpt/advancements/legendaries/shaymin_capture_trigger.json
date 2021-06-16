@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/492-normal\"}"
+        },
+        "title" : {
+            "translate" : "advancements.shaymin_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.shaymin_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "shaymin_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "shaymin"
+            }
+        }
+    }
+}

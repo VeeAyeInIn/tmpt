@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixelmon:beast_ball"
+    },
+    "title": {
+      "translate": "advancements.ultrabeast_capture.title"
+    },
+    "description": {
+      "translate": "advancements.ultrabeastb_capture.description"
+    },
+    "background": "pixelmon:textures/gui/advancements/backgrounds/ruinswall.png",
+    "hidden": false
+  },
+  "criteria": {
+    "ub_capture": {
+      "trigger": "tmpt:ultrabeast_capture_trigger",
+      "conditions" : {
+        "pokemon": "ultrabeast"
+      }
+    }
+  }
+}

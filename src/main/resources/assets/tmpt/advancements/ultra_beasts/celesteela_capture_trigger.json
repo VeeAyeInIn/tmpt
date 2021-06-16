@@ -1,0 +1,24 @@
+{
+  "display" : {
+    "icon" : {
+      "item" : "pixelmon:pixelmon_sprite",
+      "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/797\"}"
+    },
+    "title" : {
+      "translate" : "advancements.celesteela_capture.title"
+    },
+    "description" : {
+      "translate" : "advancements.celesteela_capture.description"
+    },
+    "hidden": true
+  },
+  "parent" : "tmpt:ultra_beasts/ultrabeast_capture_trigger",
+  "criteria" : {
+    "celesteela_capture" : {
+      "trigger" : "tmpt:ultrabeast_capture_trigger",
+      "conditions" : {
+        "pokemon" : "celesteela"
+      }
+    }
+  }
+}

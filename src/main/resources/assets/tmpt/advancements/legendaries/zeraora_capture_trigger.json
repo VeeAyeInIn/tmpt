@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/807\"}"
+        },
+        "title" : {
+            "translate" : "advancements.zeraora_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.zeraora_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "zeraora_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "zeraora"
+            }
+        }
+    }
+}

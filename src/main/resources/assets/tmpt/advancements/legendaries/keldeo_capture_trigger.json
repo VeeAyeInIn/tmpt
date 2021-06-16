@@ -1,0 +1,24 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/647\"}"
+        },
+        "title" : {
+            "translate" : "advancements.keldeo_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.keldeo_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "keldeo_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "keldeo"
+            }
+        }
+    }
+}

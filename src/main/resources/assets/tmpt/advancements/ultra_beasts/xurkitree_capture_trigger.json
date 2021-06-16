@@ -1,0 +1,24 @@
+{
+  "display" : {
+    "icon" : {
+      "item" : "pixelmon:pixelmon_sprite",
+      "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/796\"}"
+    },
+    "title" : {
+      "translate" : "advancements.xurkitree_capture.title"
+    },
+    "description" : {
+      "translate" : "advancements.xurkitree_capture.description"
+    },
+    "hidden": true
+  },
+  "parent" : "tmpt:ultra_beasts/ultrabeast_capture_trigger",
+  "criteria" : {
+    "xurkitree_capture" : {
+      "trigger" : "tmpt:ultrabeast_capture_trigger",
+      "conditions" : {
+        "pokemon" : "xurkitree"
+      }
+    }
+  }
+}
