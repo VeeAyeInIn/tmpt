@@ -1,3 +1,4 @@
+# Legendary and Mythical Pixelmon
 advancements.arceus_capture.description=Catch Arceus
 advancements.arceus_capture.title=The Creator
 advancements.azelf_capture.description=Catch Azelf
@@ -118,6 +119,8 @@ advancements.zeraora_capture.description=Catch Zeraora
 advancements.zeraora_capture.title=Pikachu?
 advancements.zygarde_capture.description=Catch Zygarde
 advancements.zygarde_capture.title=Cells together strong
+
+# Ultra Beasts
 advancements.ultrabeast_capture.title=From the Wormhole
 advancements.ultrabeast_capture.description=Capture an Ultra Beast
 advancements.nihilego_capture.title=UB-01 Symbiont
